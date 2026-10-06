@@ -1,0 +1,44 @@
+{
+  "name": "makers",
+  "interface": {
+    "displayName": "Makers"
+  },
+  "plugins": [
+    {
+      "name": "goal-makers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/goal-makers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "skill-makers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/skill-makers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "agent-makers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-makers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

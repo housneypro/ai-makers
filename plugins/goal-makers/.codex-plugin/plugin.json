@@ -1,0 +1,22 @@
+{
+  "name": "goal-makers",
+  "description": "논의된 업무를 plan → spec → impl-plan 3단계 수렴리뷰와 교차 검증으로 다듬어 실행 가능한 goal.md 묶음을 만든다.",
+  "version": "0.1.0",
+  "author": {
+    "name": "housney"
+  },
+  "license": "MIT",
+  "keywords": ["goal", "planning", "review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Goal Makers",
+    "shortDescription": "업무를 실행 가능한 goal.md로",
+    "developerName": "housney",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": []
+  }
+}

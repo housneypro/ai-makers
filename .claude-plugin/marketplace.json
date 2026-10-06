@@ -1,0 +1,14 @@
+{
+  "name": "makers",
+  "metadata": {
+    "description": "goal·skill·agent를 3단계 수렴리뷰와 교차 검증으로 만들어 내는 플러그인 모음."
+  },
+  "owner": {
+    "name": "housney"
+  },
+  "plugins": [
+    { "name": "goal-makers", "source": "./plugins/goal-makers" },
+    { "name": "skill-makers", "source": "./plugins/skill-makers" },
+    { "name": "agent-makers", "source": "./plugins/agent-makers" }
+  ]
+}
