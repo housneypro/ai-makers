@@ -1,12 +1,16 @@
 {
   "name": "agent-makers",
   "description": "만들고자 하는 에이전트를 plan → spec → impl-plan 3단계 수렴리뷰와 교차 검증으로 다듬어 Claude·Codex용 에이전트 정의 파일로 만든다.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "housney"
   },
   "license": "MIT",
-  "keywords": ["agent", "subagent", "review"],
+  "keywords": [
+    "agent",
+    "subagent",
+    "review"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Agent Makers",

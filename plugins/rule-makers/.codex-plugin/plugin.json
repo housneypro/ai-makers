@@ -1,0 +1,26 @@
+{
+  "name": "rule-makers",
+  "description": "프로젝트 지침 파일(AGENTS.md 등)을 plan → spec → impl-plan 3단계 수렴리뷰와 교차 검증으로 다듬어, 에이전트가 그 프로젝트에서 그대로 따를 수 있는 지침으로 만든다.",
+  "version": "0.1.0",
+  "author": {
+    "name": "housney"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rules",
+    "agents-md",
+    "review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rule Makers",
+    "shortDescription": "프로젝트를 에이전트가 따를 지침으로",
+    "developerName": "housney",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": []
+  }
+}
